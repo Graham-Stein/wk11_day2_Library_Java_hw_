@@ -44,5 +44,10 @@ public class LibraryTest {
         assertEquals(2, library.getStockLevel());
     }
 
-
+    @Test
+    public void canRemoveBookByTitle(){
+        library.addBook(book);
+        library.removeBook("Lord of the rings");
+        assertEquals(0, library.getStockLevel());
+    }
 }

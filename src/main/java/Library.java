@@ -24,4 +24,8 @@ public class Library {
     public int getMaxStock() {
         return maxStock;
     }
+
+//    public void removeBook(String book) {
+//        this.stock.remove(book);
+//    }
 }
